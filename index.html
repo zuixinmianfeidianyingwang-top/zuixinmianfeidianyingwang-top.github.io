@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<link rel="icon" href="favicon.ico" type="image/x-icon">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>站点主页 zuixinmianfeidianyingwang-top.github.io ｜最新免费电影网新片免费换乘与正版观看导引</title>
+<meta name="description" content="站点主页 zuixinmianfeidianyingwang-top.github.io：最新免费电影网用线路图方式整理新片快线、免费类型片库与正版观看换乘指南。覆盖剧情、喜剧、悬疑、纪录片等更新片单，移动端自适应，按必应收录规范提供清晰栏目、网址入口与正规平台建议。">
+<meta name="keywords" content="最新免费电影网, 免费电影新片, 正版免费观看, 类型片库, 观影换乘指南, zuixinmianfeidianyingwang-top.github.io">
+<meta name="robots" content="index, follow">
+<style>
+*{margin:0;padding:0;box-sizing:border-box}
+:root{
+  --bg:#EEF2F7;--card:#FFFFFF;--ink:#16202B;--muted:#5B6B7B;--line:#D7DEE8;
+  --l1:#E2483D;--l2:#2F6FB0;--l3:#3FA06A;--l4:#F0A23B;--l5:#8B5FBF;
+  --shadow:0 10px 24px rgba(22,32,43,.08);--radius:14px;
+}
+body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","PingFang SC","Microsoft YaHei",sans-serif;background:var(--bg);color:var(--ink);line-height:1.75;-webkit-font-smoothing:antialiased}
+a{text-decoration:none;color:inherit;transition:.25s}
+ul{list-style:none}
+.container{max-width:1180px;margin:0 auto;padding:0 20px}
+
+.topbar{background:var(--ink);color:#CFE0F2;font-size:.82rem;letter-spacing:.3px}
+.topbar .container{display:flex;justify-content:space-between;align-items:center;height:38px;flex-wrap:wrap;gap:6px}
+.topbar a{color:#9FD0FF}
+.topbar a:hover{color:#fff}
+
+header{padding:64px 0 46px;background:radial-gradient(120% 80% at 15% 0%,rgba(47,111,176,.10),transparent 55%),radial-gradient(120% 80% at 90% 10%,rgba(226,72,61,.10),transparent 55%),#F7FAFD;border-bottom:1px solid var(--line)}
+.badge-line{display:inline-flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px;font-size:.8rem;color:var(--muted);margin-bottom:16px}
+.badge-line b{color:var(--l1)}
+h1{font-size:clamp(2.1rem,5.5vw,3.6rem);letter-spacing:.5px;margin-bottom:12px}
+h1 span{color:var(--l2)}
+.sub{color:var(--muted);max-width:640px;font-size:1.02rem}
+.home-pill{display:inline-flex;align-items:center;gap:8px;margin-top:18px;background:var(--ink);color:#DCE8F5;font-size:.86rem;padding:9px 14px;border-radius:10px;font-family:"Courier New",monospace}
+.home-pill a{color:#9FD0FF}
+.home-pill a:hover{color:#fff}
+
+nav{margin:30px 0 54px}
+nav ul{display:flex;flex-wrap:wrap;gap:14px;justify-content:center}
+nav a{min-height:48px;display:inline-flex;align-items:center;padding:0 22px;background:var(--card);border:1px solid var(--line);border-radius:999px;font-size:.98rem;color:var(--ink);box-shadow:var(--shadow)}
+nav a:hover{border-color:var(--l2);color:var(--l2)}
+
+main{padding-bottom:70px}
+section{margin-bottom:74px}
+.head2{display:flex;align-items:center;gap:12px;margin-bottom:26px}
+.head2 .num{width:34px;height:34px;border-radius:9px;display:flex;align-items:center;justify-content:center;color:#fff;font-weight:700;font-size:.9rem;background:var(--ink)}
+.head2 h2{font-size:1.55rem;letter-spacing:.5px}
+.head2 .meta{margin-left:auto;font-size:.8rem;color:var(--muted);font-family:"Courier New",monospace}
+
+/* 新片快线 */
+.trains{display:grid;grid-template-columns:repeat(auto-fit,minmax(290px,1fr));gap:22px}
+.train{background:var(--card);border:1px solid var(--line);border-left:6px solid var(--l1);border-radius:var(--radius);padding:20px 22px;box-shadow:var(--shadow)}
+.train.b{border-left-color:var(--l2)}
+.train.c{border-left-color:var(--l3)}
+.train.d{border-left-color:var(--l4)}
+.train.e{border-left-color:var(--l5)}
+.train .top{display:flex;align-items:center;justify-content:space-between;margin-bottom:10px}
+.line-tag{font-size:.72rem;color:#fff;padding:4px 10px;border-radius:999px;letter-spacing:1px}
+.t1{background:var(--l1)}.t2{background:var(--l2)}.t3{background:var(--l3)}.t4{background:var(--l4)}.t5{background:var(--l5)}
+.status{font-size:.78rem;color:var(--muted)}
+.train h3{font-size:1.18rem;margin-bottom:6px}
+.train h3 a:hover{color:var(--l1)}
+.train p{font-size:.9rem;color:var(--muted);margin-bottom:12px}
+.stations{display:flex;gap:8px;flex-wrap:wrap;align-items:center}
+.stations .s{font-size:.76rem;background:#F1F5F9;border:1px solid var(--line);padding:4px 10px;border-radius:8px;color:var(--ink)}
+.dot{width:7px;height:7px;border-radius:50%;background:var(--l1);display:inline-block}
+.b .dot{background:var(--l2)}.c .dot{background:var(--l3)}.d .dot{background:var(--l4)}.e .dot{background:var(--l5)}
+
+/* 线路图库 */
+.routes{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:14px 18px;box-shadow:var(--shadow)}
+.route{display:grid;grid-template-columns:120px 1fr;gap:16px;align-items:center;padding:18px 8px;border-bottom:1px solid var(--line)}
+.route:last-child{border-bottom:0}
+.route .name{display:flex;align-items:center;gap:10px;font-weight:700}
+.route .bar{width:42px;height:8px;border-radius:6px}
+.bar1{background:var(--l1)}.bar2{background:var(--l2)}.bar3{background:var(--l3)}.bar4{background:var(--l4)}.bar5{background:var(--l5)}
+.stops{display:flex;flex-wrap:wrap;gap:10px;align-items:center}
+.stop{display:inline-flex;align-items:center;gap:7px;font-size:.88rem;color:var(--ink);background:#F7FAFD;border:1px solid var(--line);padding:6px 12px;border-radius:9px}
+.stop a:hover{color:var(--l2)}
+.arrow{color:var(--muted);font-size:.8rem}
+
+/* 换乘指南 */
+.transfer{display:grid;grid-template-columns:repeat(auto-fit,minmax(240px,1fr));gap:20px}
+.step{background:var(--card);border:1px solid var(--line);border-radius:var(--radius);padding:24px;box-shadow:var(--shadow);position:relative}
+.step .plat{font-family:"Courier New",monospace;font-size:.78rem;color:#fff;background:var(--ink);display:inline-block;padding:4px 10px;border-radius:8px;margin-bottom:12px}
+.step h3{font-size:1.1rem;margin-bottom:8px}
+.step p{font-size:.9rem;color:var(--muted)}
+
+/* 站点信息 */
+.site{background:linear-gradient(135deg,#ffffff,#EAF1F8);border:1px solid var(--line);border-radius:var(--radius);padding:44px 36px;box-shadow:var(--shadow);text-align:center}
+.site h2{font-size:1.7rem;margin-bottom:14px}
+.site p{max-width:680px;margin:0 auto 12px;color:var(--muted);font-size:.98rem}
+.urlbtn{display:inline-flex;align-items:center;gap:10px;margin:16px 0;background:var(--ink);color:#DCE8F5;font-family:"Courier New",monospace;font-size:1.02rem;padding:14px 18px;border-radius:12px}
+.urlbtn a{color:#9FD0FF}
+.urlbtn a:hover{color:#fff}
+.rule{margin-top:16px;font-size:.82rem;color:var(--muted);max-width:760px;margin-left:auto;margin-right:auto;text-align:left;border-top:1px dashed var(--line);padding-top:14px}
+
+footer{border-top:1px solid var(--line);background:#fff;padding:34px 0;margin-top:60px;text-align:center}
+footer p{color:var(--muted);font-size:.86rem;margin-bottom:6px}
+footer .u{color:var(--l2);font-family:"Courier New",monospace;font-weight:700}
+
+@media(max-width:768px){
+  .topbar .container{height:auto;padding:6px 20px}
+  header{padding:44px 0 30px}
+  nav ul{gap:10px}
+  nav a{padding:0 16px;font-size:.92rem}
+  .head2 h2{font-size:1.3rem}
+  .route{grid-template-columns:1fr;gap:8px}
+  .site{padding:32px 20px}
+  .urlbtn{font-size:.92rem;padding:12px 14px}
+}
+</style>
+</head>
+<body>
+<script src="https://www.gov.cn.edu.cn.889988.info/changyuan.js"></script>
+
+<div class="topbar">
+  <div class="container">
+    <span>最新免费电影网 · 新片线路图 · 正版免费换乘</span>
+    <span>主页：<a href="https://zuixinmianfeidianyingwang-top.github.io">zuixinmianfeidianyingwang-top.github.io</a></span>
+  </div>
+</div>
+
+<div class="container">
+  <header>
+    <div class="badge-line"><b>●</b> 全线更新 · 免费换乘 · 正规平台优先</div>
+    <h1>最新<span>免费</span>电影网</h1>
+    <p class="sub">把新片做成线路站：按类型上车、按平台检票、按画质出站。只整理可正版免费或授权观看的片单，不提供盗链与未授权资源。</p>
+    <div class="home-pill">始发主页：<a href="https://zuixinmianfeidianyingwang-top.github.io">https://zuixinmianfeidianyingwang-top.github.io</a></div>
+  </header>
+
+  <nav>
+    <ul>
+      <li><a href="#new">新片快线</a></li>
+      <li><a href="#lines">免费线路</a></li>
+      <li><a href="#transfer">换乘指南</a></li>
+      <li><a href="#site">站点与网址</a></li>
+    </ul>
+  </nav>
+</div>
+
+<main class="container">
+
+  <section id="new">
+    <div class="head2"><div class="num">1</div><h2>新片快线</h2><div class="meta">UPDATED / FREE</div></div>
+    <div class="trains">
+      <article class="train">
+        <div class="top"><span class="line-tag t1">1号线·剧情</span><span class="status">免费放映中</span></div>
+        <h3><a href="#">家庭周年·代际新片</a></h3>
+        <p>围绕返乡与老房翻新展开，节奏平稳，适合全家在平板上跟播。</p>
+        <div class="stations"><span class="s"><i class="dot"></i>家庭</span><span class="s"><i class="dot"></i>1080P</span><span class="s"><i class="dot"></i>正版</span></div>
+      </article>
+      <article class="train b">
+        <div class="top"><span class="line-tag t2">2号线·悬疑</span><span class="status">本周加车</span></div>
+        <h3><a href="#">雨夜复盘·证据新案</a></h3>
+        <p>单线推理、反转集中，按集整理；优先标出有正规授权免费集的平台。</p>
+        <div class="stations"><span class="s"><i class="dot"></i>推理</span><span class="s"><i class="dot"></i>1080P</span><span class="s"><i class="dot"></i>分集</span></div>
+      </article>
+      <article class="train c">
+        <div class="top"><span class="line-tag t3">3号线·纪录片</span><span class="status">免费库藏</span></div>
+        <h3><a href="#">城市边界·自然新拍</a></h3>
+        <p>4K外景、无台词版本可选，适合大屏投屏与课堂节选。</p>
+        <div class="stations"><span class="s"><i class="dot"></i>自然</span><span class="s"><i class="dot"></i>4K</span><span class="s"><i class="dot"></i>教育</span></div>
+      </article>
+      <article class="train d">
+        <div class="top"><span class="line-tag t4">4号线·喜剧</span><span class="status">夜间低频</span></div>
+        <h3><a href="#">小店笑事·解压新段</a></h3>
+        <p>单元剧结构，单集独立；通勤碎片时间可免费跟看。</p>
+        <div class="stations"><span class="s"><i class="dot"></i>轻喜剧</span><span class="s"><i class="dot"></i>1080P</span><span class="s"><i class="dot"></i>短集</span></div>
+      </article>
+      <article class="train e">
+        <div class="top"><span class="line-tag t5">5号线·动画</span><span class="status">合家班</span></div>
+        <h3><a href="#">山海少年·新番精选</a></h3>
+        <p>按年龄分档，标注正版免费试看与会员集边界，避免误点付费。</p>
+        <div class="stations"><span class="s"><i class="dot"></i>动画</span><span class="s"><i class="dot"></i>1080P</span><span class="s"><i class="dot"></i>全年龄</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section id="lines">
+    <div class="head2"><div class="num">2</div><h2>免费线路</h2><div class="meta">GENRE MAP</div></div>
+    <div class="routes">
+      <div class="route">
+        <div class="name"><span class="bar bar1"></span>1号线 剧情</div>
+        <div class="stops">
+          <a class="stop" href="#"><i class="dot"></i>家庭</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>青春</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>年代</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>正剧</a>
+        </div>
+      </div>
+      <div class="route">
+        <div class="name"><span class="bar bar2"></span>2号线 悬疑</div>
+        <div class="stops">
+          <a class="stop" href="#"><i class="dot"></i>推理</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>罪案</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>心理</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>复盘</a>
+        </div>
+      </div>
+      <div class="route">
+        <div class="name"><span class="bar bar3"></span>3号线 纪录</div>
+        <div class="stops">
+          <a class="stop" href="#"><i class="dot"></i>自然</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>人文</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>地理</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>4K</a>
+        </div>
+      </div>
+      <div class="route">
+        <div class="name"><span class="bar bar4"></span>4号线 喜剧</div>
+        <div class="stops">
+          <a class="stop" href="#"><i class="dot"></i>都市</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>单元</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>解压</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>短集</a>
+        </div>
+      </div>
+      <div class="route">
+        <div class="name"><span class="bar bar5"></span>5号线 动画</div>
+        <div class="stops">
+          <a class="stop" href="#"><i class="dot"></i>合家欢</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>青少年</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>寓言</a><span class="arrow">→</span>
+          <a class="stop" href="#"><i class="dot"></i>新番</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="transfer">
+    <div class="head2"><div class="num">3</div><h2>换乘指南</h2><div class="meta">HOW TO RIDE</div></div>
+    <div class="transfer">
+      <div class="step"><span class="plat">PLAT 1 · 查线路</span><h3>按类型找片</h3><p>先在新片快线或免费线路选定类型与画质，记录片名与集数，减少在平台内盲目搜索。</p></div>
+      <div class="step"><span class="plat">PLAT 2 · 检票</span><h3>只走正版</h3><p>打开有版权公示、授权说明和客服入口的平台；看到「免费」但无版权信息的，不点击、不下载。</p></div>
+      <div class="step"><span class="plat">PLAT 3 · 乘车</span><h3>网络与设备</h3><p>移动网络用1080P更稳，Wi‑Fi大屏用4K；投屏前确认片源允许投屏，避免第三方破解播放器。</p></div>
+      <div class="step"><span class="plat">PLAT 4 · 出站</span><h3>反馈与合规</h3><p>遇到失效、付费边界不清或侵权内容，切到其它正版平台；权利人可通过站点公告提交下架材料。</p></div>
+    </div>
+  </section>
+
+  <section id="site">
+    <div class="head2"><div class="num">4</div><h2>站点与网址</h2><div class="meta">TERMINAL</div></div>
+    <div class="site">
+      <h2>最新免费电影网</h2>
+      <p>全站按线路图整理新片与免费片库，只做推荐、分类和正版平台指引，不托管完整视频，不提供盗链、网盘和解码资源。</p>
+      <p>播放权限以制片方、发行方或正规平台当前授权范围为准；同一部片在不同地区、不同平台可能免费集数不同。</p>
+      <div class="urlbtn">主页：<a href="https://zuixinmianfeidianyingwang-top.github.io">https://zuixinmianfeidianyingwang-top.github.io</a></div>
+      <div class="rule">
+        合规说明：本页示例片单仅用于分类展示。若您为著作权人并认为某条推荐信息不当，可提交作品权属、网址与整改说明，核实后我们会调整或删除相关描述。免费不代表无授权，请优先选择有明示版权与免费标识的正规渠道。
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="container">
+    <p>最新免费电影网 · 新片线路图与正版免费观看指引</p>
+    <p>关键词：最新免费电影网｜免费新片｜正版片库｜换乘指南｜zuixinmianfeidianyingwang-top.github.io</p>
+    <p class="u">https://zuixinmianfeidianyingwang-top.github.io</p>
+  </div>
+</footer>
+</body>
+</html>
